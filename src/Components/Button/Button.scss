@@ -1,0 +1,21 @@
+.custom-button {
+  width: 100%;
+  max-width: 280px;
+  height: 40px;
+  background-color: rgb(53, 53, 185);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px #0004;
+  padding: 0 4px;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s all ease-in;
+
+  &:hover {
+    background-color: rgb(58, 58, 146);
+  }
+}
